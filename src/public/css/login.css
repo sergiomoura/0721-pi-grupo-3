@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fascinate', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #272525;
+}
+
+main {
+    background-color: black;
+    padding: 20px;
+    margin: 100px auto;
+    width: 410px;
+    height: 400px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#store {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    background-color: #ffa500;
+    width: 90px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#titulo {
+    margin-bottom: 50px;
+}
+
+label > span {
+    margin-top: 50px;
+}
+
+span {
+    font-size: 15px;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    background-color: #312f2f;
+    padding: 3px;
+    border: 1px solid #312f2f;
+    border-radius: 10px;
+    color: #333;
+    margin: 5px auto;
+}
+
+input:hover {
+    color: white;
+}
+
+a {
+    margin-left: 20px;
+}
+
+#entrar {
+    margin: -25px 260px;
+}
+
+#esqueceu {
+    width: 200px;
+    margin: 40px 0px 0px 0px;
+}
+
+button {
+    width: 100px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #ffa500;
+    color: white;
+}
