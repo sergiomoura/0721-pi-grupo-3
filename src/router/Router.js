@@ -4,7 +4,11 @@ const router = express.Router();
 
 const Controller = require('../controllers/Controller');
 
-router.get('/', Controller.listar);
+router.get('/', Controller.home);
+
+router.get('/login', Controller.login);
+
+router.get('/cadastro', Controller.cadastrar);
 
 router.get('/finaliza', Controller.finaliza);
 
