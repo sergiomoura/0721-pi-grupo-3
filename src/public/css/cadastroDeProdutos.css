@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+div {
+    background-color: #161616;
+}
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    margin: 15px;
+    margin-top: 10%;
+    margin-left: 11%;
+    border-radius: 9px;
+    border-color: white;
+}
+.produto > h2 {
+    color: white;
+}
+.produto > input {
+    background-color: #EE9003;
+    padding: 12px;
+    border: 0px;
+    margin-top: 45px;
+    border-radius: 5px;
+    width: 40%; 
+}
+.produto > img {
+    border-radius: 9px;
+}
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    margin: 15px;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 9px;
+    border-color: white;
+}
+.add > input{
+    padding: 20%;
+}
