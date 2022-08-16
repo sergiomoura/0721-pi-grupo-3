@@ -12,6 +12,8 @@ router.get('/cadastro', Controller.cadastrar);
 
 router.get('/finaliza', Controller.finaliza);
 
-router.get('/cadastroP', Controller.cadastroP)
+router.get('/cadastroP', Controller.cadastroP);
+
+router.get('/painelU', Controller.painel)
 
 module.exports = router;

@@ -13,15 +13,19 @@ const Controller = {
     },
 
     home: (req, res) => {
-        res.render('../src/views/home.ejs', { erro: 0 });
+        res.render('../src/views/home.ejs');
     },
 
     login: (req, res) => {
-        res.render('../src/views/login.ejs', { erro: 0 });
+        res.render('../src/views/login.ejs');
     },
 
     cadastrar: (req, res) => {
-        res.render('../src/views/cadastro.ejs', { erro: 0 });
+        res.render('../src/views/cadastro.ejs');
+    },
+
+    painel: (req, res) => {
+        res.render('../src/views/painelusuario.ejs');
     },
 }
    
